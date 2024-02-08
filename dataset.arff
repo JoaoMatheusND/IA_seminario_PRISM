@@ -1,0 +1,25 @@
+@relation risco
+
+@attribute hist_credito {ruim, desconhecida, boa}
+@attribute divida {alta, baixa}
+@attribute garantia {nenhuma, adequada}
+@attribute renda {0_a_15, 15_a_35, acima_de_35}
+@attribute risco {alto, moderado, baixo}
+
+@data
+ruim, alta, nenhuma, 0_a_15, alto
+desconhecida, alta, nenhuma, 15_a_35, alto
+desconhecida, baixa, nenhuma, 15_a_35, moderado
+desconhecida, baixa, nenhuma, 0_a_15, alto
+desconhecida, baixa, nenhuma, acima_de_35, baixo
+desconhecida, baixa, adequada, acima_de_35, baixo
+ruim, baixa, nenhuma, 0_a_15, alto
+ruim, baixa, adequada, acima_de_35, moderado
+boa, baixa, nenhuma, acima_de_35, baixo
+boa, alta, adequada, acima_de_35, baixo
+boa, alta, nenhuma, 0_a_15, alto
+boa, alta, nenhuma, 15_a_35, moderado
+boa, alta, nenhuma, acima_de_35, baixo
+ruim, alta, nenhuma, 15_a_35, alto
+
+
