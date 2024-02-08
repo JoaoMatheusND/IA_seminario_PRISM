@@ -1,3 +1,6 @@
+//Baixar o weka via https://weka.softonic.com.br/#:~:text=Weka%20é%20um%20aplicativo%20de,esquemas%20de%20aprendizado%20de%20máquina.
+//Código gerado via ChatGPT
+
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.classifiers.Evaluation;
